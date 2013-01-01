@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: mogodb | Fuse Box]]></title>
+  <link href="http://fuseboxtech.com/blog/categories/mogodb/atom.xml" rel="self"/>
+  <link href="http://fuseboxtech.com/"/>
+  <updated>2013-01-01T11:06:06-06:00</updated>
+  <id>http://fuseboxtech.com/</id>
+  <author>
+    <name><![CDATA[Tatum]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Failed to connect to a master node at localhost:27017]]></title>
+    <link href="http://fuseboxtech.com/blog/2012/12/31/failed-to-connect-to-a-master-node-at-localhost-27017/"/>
+    <updated>2012-12-31T14:48:00-06:00</updated>
+    <id>http://fuseboxtech.com/blog/2012/12/31/failed-to-connect-to-a-master-node-at-localhost-27017</id>
+    <content type="html"><![CDATA[<p>Everytime my server looses power, Mongo has trouble restarting. These commands fixes the problem.</p>
+
+<p><code>bash
+sudo rm /var/lib/mongodb/mongod.lock
+</code></p>
+
+<p><code>bash
+sudo -u mongodb mongod -f /etc/mongodb.conf --repair
+sudo service mongodb restart
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>
