@@ -1,37 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://fuseboxtech.com/blog/2012/12/16/ubuntu-ip-address/</loc>
+        <loc>http://tatums.github.com/blog/2012/12/16/ubuntu-ip-address/</loc>
         <lastmod>2013-01-01T11:05:16-06:00</lastmod>
     </url>
     <url>
-        <loc>http://fuseboxtech.com/blog/2012/12/16/add-public-ssh-key-to-server/</loc>
+        <loc>http://tatums.github.com/blog/2012/12/16/add-public-ssh-key-to-server/</loc>
         <lastmod>2013-01-01T11:05:16-06:00</lastmod>
     </url>
     <url>
-        <loc>http://fuseboxtech.com/blog/2012/12/30/elastic-search-ubuntu/</loc>
+        <loc>http://tatums.github.com/blog/2012/12/30/elastic-search-ubuntu/</loc>
         <lastmod>2013-01-01T11:05:16-06:00</lastmod>
     </url>
     <url>
-        <loc>http://fuseboxtech.com/blog/2012/12/30/ubuntu-dist-upgrade/</loc>
+        <loc>http://tatums.github.com/blog/2012/12/30/ubuntu-dist-upgrade/</loc>
         <lastmod>2013-01-01T11:05:16-06:00</lastmod>
     </url>
     <url>
         <loc>
-            http://fuseboxtech.com/blog/2012/12/31/failed-to-connect-to-a-master-node-at-localhost-27017/
+            http://tatums.github.com/blog/2012/12/31/failed-to-connect-to-a-master-node-at-localhost-27017/
         </loc>
         <lastmod>2013-01-01T11:05:16-06:00</lastmod>
     </url>
     <url>
-        <loc>http://fuseboxtech.com/blog/archives/</loc>
-        <lastmod>2013-01-01T11:05:16-06:00</lastmod>
+        <loc>http://tatums.github.com/blog/2013/01/14/form-helper-from-console/</loc>
+        <lastmod>2013-01-14T11:14:34-06:00</lastmod>
     </url>
     <url>
-        <loc>http://fuseboxtech.com/</loc>
-        <lastmod>2013-01-01T11:05:16-06:00</lastmod>
+        <loc>http://tatums.github.com/blog/2013/01/14/set-default-value-in-rails-model/</loc>
+        <lastmod>2013-01-14T11:37:46-06:00</lastmod>
     </url>
     <url>
-        <loc>http://fuseboxtech.com/super-awesome/</loc>
+        <loc>http://tatums.github.com/blog/archives/</loc>
+        <lastmod>2013-01-14T11:37:46-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tatums.github.com/</loc>
+        <lastmod>2013-01-14T11:37:46-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://tatums.github.com/super-awesome/</loc>
         <lastmod>2013-01-01T11:05:16-06:00</lastmod>
     </url>
 </urlset>

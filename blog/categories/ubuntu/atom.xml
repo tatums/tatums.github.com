@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ubuntu | Fuse Box]]></title>
-  <link href="http://fuseboxtech.com/blog/categories/ubuntu/atom.xml" rel="self"/>
-  <link href="http://fuseboxtech.com/"/>
-  <updated>2013-01-01T11:06:06-06:00</updated>
-  <id>http://fuseboxtech.com/</id>
+  <link href="http://tatums.github.com/blog/categories/ubuntu/atom.xml" rel="self"/>
+  <link href="http://tatums.github.com/"/>
+  <updated>2013-01-14T11:59:59-06:00</updated>
+  <id>http://tatums.github.com/</id>
   <author>
     <name><![CDATA[Tatum]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Failed to connect to a master node at localhost:27017]]></title>
-    <link href="http://fuseboxtech.com/blog/2012/12/31/failed-to-connect-to-a-master-node-at-localhost-27017/"/>
+    <link href="http://tatums.github.com/blog/2012/12/31/failed-to-connect-to-a-master-node-at-localhost-27017/"/>
     <updated>2012-12-31T14:48:00-06:00</updated>
-    <id>http://fuseboxtech.com/blog/2012/12/31/failed-to-connect-to-a-master-node-at-localhost-27017</id>
+    <id>http://tatums.github.com/blog/2012/12/31/failed-to-connect-to-a-master-node-at-localhost-27017</id>
     <content type="html"><![CDATA[<p>Everytime my server looses power, Mongo has trouble restarting. These commands fixes the problem.</p>
 
 <p><code>bash
@@ -33,9 +33,9 @@ sudo service mongodb restart
   
   <entry>
     <title type="html"><![CDATA[ubuntu-dist-upgrade]]></title>
-    <link href="http://fuseboxtech.com/blog/2012/12/30/ubuntu-dist-upgrade/"/>
+    <link href="http://tatums.github.com/blog/2012/12/30/ubuntu-dist-upgrade/"/>
     <updated>2012-12-30T10:15:00-06:00</updated>
-    <id>http://fuseboxtech.com/blog/2012/12/30/ubuntu-dist-upgrade</id>
+    <id>http://tatums.github.com/blog/2012/12/30/ubuntu-dist-upgrade</id>
     <content type="html"><![CDATA[<p><code>bash
 sudo apt-get dist-upgrade
 lsb_release -a
@@ -49,9 +49,9 @@ sudo do-release-upgrade -d
   
   <entry>
     <title type="html"><![CDATA[ubuntu-ip-address]]></title>
-    <link href="http://fuseboxtech.com/blog/2012/12/16/ubuntu-ip-address/"/>
+    <link href="http://tatums.github.com/blog/2012/12/16/ubuntu-ip-address/"/>
     <updated>2012-12-16T08:40:00-06:00</updated>
-    <id>http://fuseboxtech.com/blog/2012/12/16/ubuntu-ip-address</id>
+    <id>http://tatums.github.com/blog/2012/12/16/ubuntu-ip-address</id>
     <content type="html"><![CDATA[<p>sudo vi /etc/network/interfaces</p>
 
 <p>```ruby</p>

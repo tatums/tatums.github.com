@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rails | Fuse Box]]></title>
+  <link href="http://tatums.github.com/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://tatums.github.com/"/>
+  <updated>2013-01-14T11:59:59-06:00</updated>
+  <id>http://tatums.github.com/</id>
+  <author>
+    <name><![CDATA[Tatum]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[set-default-value-in-rails-model]]></title>
+    <link href="http://tatums.github.com/blog/2013/01/14/set-default-value-in-rails-model/"/>
+    <updated>2013-01-14T11:35:00-06:00</updated>
+    <id>http://tatums.github.com/blog/2013/01/14/set-default-value-in-rails-model</id>
+    <content type="html"><![CDATA[<p>I like to set default values in my models.  This is the method I like to use.</p>
+
+<p>```ruby
+  def after_initialize</p>
+
+<pre><code>if new_record?
+  self.upper_quantity ||= 0.0
+end
+</code></pre>
+
+<p>  end
+```</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[form-helper-from-console]]></title>
+    <link href="http://tatums.github.com/blog/2013/01/14/form-helper-from-console/"/>
+    <updated>2013-01-14T11:08:00-06:00</updated>
+    <id>http://tatums.github.com/blog/2013/01/14/form-helper-from-console</id>
+    <content type="html"><![CDATA[<p>From the rails console.</p>
+
+<p>```ruby
+helper.text_field :object, :name</p>
+
+<p>"<input id=\"object_name\" name=\"object[name]\" size=\"30\" type=\"text\" />"
+```</p>
+]]></content>
+  </entry>
+  
+</feed>
