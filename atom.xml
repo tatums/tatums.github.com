@@ -4,7 +4,7 @@
   <title><![CDATA[Fuse Box]]></title>
   <link href="http://tatums.github.com/atom.xml" rel="self"/>
   <link href="http://tatums.github.com/"/>
-  <updated>2013-01-14T11:59:59-06:00</updated>
+  <updated>2013-01-15T11:46:27-06:00</updated>
   <id>http://tatums.github.com/</id>
   <author>
     <name><![CDATA[Tatum]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Convert a date string to ruby Date]]></title>
+    <link href="http://tatums.github.com/blog/2013/01/15/convert-a-date-string-to-ruby-date/"/>
+    <updated>2013-01-15T11:43:00-06:00</updated>
+    <id>http://tatums.github.com/blog/2013/01/15/convert-a-date-string-to-ruby-date</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="no">Date</span><span class="o">.</span><span class="n">parse</span> <span class="s1">&#39;2013/1/15&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="no">DateTime</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;2013/1/15&#39;</span><span class="o">+</span><span class="s1">&#39;-23:59:59-6:00&#39;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[set-default-value-in-rails-model]]></title>

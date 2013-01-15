@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ruby | Fuse Box]]></title>
+  <link href="http://tatums.github.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://tatums.github.com/"/>
+  <updated>2013-01-15T11:46:27-06:00</updated>
+  <id>http://tatums.github.com/</id>
+  <author>
+    <name><![CDATA[Tatum]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Convert a date string to ruby Date]]></title>
+    <link href="http://tatums.github.com/blog/2013/01/15/convert-a-date-string-to-ruby-date/"/>
+    <updated>2013-01-15T11:43:00-06:00</updated>
+    <id>http://tatums.github.com/blog/2013/01/15/convert-a-date-string-to-ruby-date</id>
+    <content type="html"><![CDATA[<p>```ruby
+Date.parse '2013/1/15'</p>
+
+<p>DateTime.parse('2013/1/15'+'-23:59:59-6:00')
+```</p>
+]]></content>
+  </entry>
+  
+</feed>
