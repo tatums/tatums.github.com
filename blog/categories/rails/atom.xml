@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rails | Fuse Box]]></title>
   <link href="http://tatums.github.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://tatums.github.com/"/>
-  <updated>2013-01-15T11:46:27-06:00</updated>
+  <updated>2013-01-21T16:38:05-06:00</updated>
   <id>http://tatums.github.com/</id>
   <author>
     <name><![CDATA[Tatum]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Migrate a single database migration]]></title>
+    <link href="http://tatums.github.com/blog/2013/01/21/migrate-a-single-database-migration/"/>
+    <updated>2013-01-21T16:33:00-06:00</updated>
+    <id>http://tatums.github.com/blog/2013/01/21/migrate-a-single-database-migration</id>
+    <content type="html"><![CDATA[<p><code>ruby
+rails console
+require "db/migrate/20121130134444_add_column_backorder_to_orders.rb"
+AddColumnBackorderToOrders.up
+</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[set-default-value-in-rails-model]]></title>
